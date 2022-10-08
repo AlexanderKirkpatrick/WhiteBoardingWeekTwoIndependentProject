@@ -6,3 +6,14 @@
 // Input: [7, 9, "hi", 12, "hi", 7, 53]
 
 // Output: [7, 9, "hi", 12, 53
+
+const deduper = () => {
+  const charsArr = [7, 9, "hi", 12, "hi", 7, 53, 9, 12, 53];
+  let uniqueCharsArr = [...new Set(charsArr)];
+  return uniqueCharsArr;
+};
+
+const deduperWithFilter = () => {
+  const arr = [7, 9, "hi", 12, "hi", 7, 53, 9, 12, 53];
+    return arr.filter((item, index) => arr.indexOf(item) === index);
+};
