@@ -16,7 +16,7 @@ const stringIsUnique = (input) => {
   for (i = 0; i < newInput.length; i++) {
     if (newInput.indexOf(newInput[i]) !== newInput.lastIndexOf(newInput[i])) {
       return false;
-    }
-  }
+    };
+  };
   return true;
-}
+};
