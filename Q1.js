@@ -8,3 +8,7 @@
 // Input: "Jasmine Ann Jones"
 
 // Output: "Jasmine%20Ann%20Jones"
+
+const makeURL = (string) => {
+  return encodeURI(string);
+};
