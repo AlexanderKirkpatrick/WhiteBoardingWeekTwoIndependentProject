@@ -1,6 +1,8 @@
-# _White Boarding WK 2 Project_
+# _White Boarding Week 2 Functional Programming Project_
 
 #### By _**Alexander Kirkpatrick**_
+
+#### _An independent project practicing whiteboarding and functional programming._
 
 ## License
 
