@@ -10,3 +10,13 @@
 // Input: "copyright"
 
 // Output: true
+
+const stringIsUnique = (input) => {
+  const newInput = input.replace(/\s+/g, '');
+  for (i = 0; i < newInput.length; i++) {
+    if (newInput.indexOf(newInput[i]) !== newInput.lastIndexOf(newInput[i])) {
+      return false;
+    }
+  }
+  return true;
+}
