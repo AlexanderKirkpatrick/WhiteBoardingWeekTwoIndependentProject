@@ -7,6 +7,7 @@
 
 // Output: "3ab2c4da"
 
-const compressString = str => str.replace(/(.)\1+/g, str => str[0] + str.length);
+
+const compressString = str => str.replace(/(.)\1+/g, str => str.length + str[0]);
 
 compressString();
